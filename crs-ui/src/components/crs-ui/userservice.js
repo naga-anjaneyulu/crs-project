@@ -5,13 +5,13 @@ class UserService{
 
     registerUser(data){
 
-     return axios.post('http://localhost:5000/register', 
+     return axios.post('http://35.225.108.32:5000/register', 
     data)
     }
 
 
     loginUser(data){
-        return axios.post('http://localhost:5000/login', 
+        return axios.post('http://35.225.108.32:5000/login', 
     data)
     }
 
