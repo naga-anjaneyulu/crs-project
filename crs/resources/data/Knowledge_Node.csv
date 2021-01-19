@@ -1,0 +1,359 @@
+﻿KnowledgeID,Knowledge Name
+Know_1,application development
+Know_2,programming
+Know_3,algorithms
+Know_4,fundamentals of java
+Know_5,fundamentals of python
+Know_6,web programming
+Know_7,object oriented programming
+Know_8,multimedia
+Know_9,matlab
+Know_10,c
+Know_11,data analysis
+Know_12,data processing
+Know_13,c++
+Know_14,computer network
+Know_15,information retireval
+Know_16,server administration
+Know_17,web  design
+Know_18,systems administration
+Know_19,information technologies
+Know_20,embedded systems
+Know_21,network security
+Know_22,software security
+Know_23,cryptography
+Know_24,operating systems security
+Know_25,cybersecurity
+Know_26,web protocols
+Know_27,web development
+Know_28,assembly language programming
+Know_29,data structures
+Know_30,artificial intelligence
+Know_31,neural networks
+Know_32,fundamentals of machine learning
+Know_33,robotics
+Know_34,bioinformatics
+Know_35,big data
+Know_36,data mining
+Know_37,data collection
+Know_38,formal language theory
+Know_39,computer security
+Know_40,system security
+Know_41,microprogramming
+Know_42,digital design
+Know_43,computer architecture
+Know_44,game development
+Know_45,unity
+Know_46,statistics
+Know_47,advanced machine learning
+Know_48,machine learning applications
+Know_49,machine learning for signal processing
+Know_50,information security
+Know_51,distributed systems
+Know_52,secure systems design
+Know_53,bayesian inference
+Know_54,svm
+Know_55,bayesian networks
+Know_56,relational database design
+Know_57,database applications development
+Know_58,data preprocessing
+Know_59,anomaly detection
+Know_60,computer graphics
+Know_61,gpu
+Know_62,microteaching
+Know_63,computer vision
+Know_64,image processing
+Know_65,natural language processing
+Know_66,reinforcement learning
+Know_67,computing
+Know_68,operating system interface
+Know_69,fundamentals of probability
+Know_70,system programming
+Know_71,linux
+Know_72,unix
+Know_73,c#
+Know_74,leadership
+Know_75,mobile application development
+Know_76,compiler design
+Know_77,distributed computing
+Know_78,operating systems
+Know_79,open ssl
+Know_80,information systems development
+Know_81,software design
+Know_82,object oriented software development
+Know_83,advanced java
+Know_84,usercentered design methods
+Know_85,pervasive computing
+Know_86,multithreading
+Know_87,dns http dhcp icmp vpns multicast
+Know_88,agile
+Know_89,career development
+Know_90,project development
+Know_91,web  development
+Know_92,intelligent systems
+Know_93,innovation
+Know_94,system architecture
+Know_95,software development
+Know_96,systems programming
+Know_97,computing ecosystem
+Know_98,sensor mechanisms
+Know_99,internet of things iot
+Know_100,cloud systems
+Know_101,python
+Know_102,data analytics
+Know_103,cloud
+Know_104,signal processing
+Know_105,signals systems and control theory
+Know_106,ethics
+Know_107,circuits and digital design
+Know_108,integrated circuit technology
+Know_109,circuit design
+Know_110,xinu
+Know_111,distributed processing
+Know_112,vxworks
+Know_113,field programmable gate arrays fgpa
+Know_114,high performance computing hpc
+Know_115,networks protocols
+Know_116,cyber physical systems
+Know_117,computer numeric control cnc
+Know_118,computational modeling and simulation
+Know_119,highperformance computing
+Know_120,stochastic simulation
+Know_121,optimization
+Know_122,computational modeling for bioengineering
+Know_123,biological systems
+Know_124,cell population kinetics
+Know_125,cell signaling
+Know_126,receptor trafficking
+Know_127,pharmacokinetics/pharmacodynamics
+Know_128,compartmental and systems physiology
+Know_129,control theory
+Know_130,report writing
+Know_131,cloud computing
+Know_132,adaptive intelligent systems
+Know_133,datadriven models
+Know_134,nanoscale systems
+Know_135,parallel computing
+Know_136,nonequilibrium systems
+Know_137,data visualization
+Know_138,human cognition and perception
+Know_139,scientific visualization
+Know_140,3d printing
+Know_141,augmented reality ar
+Know_142,advanced intelligent systems
+Know_143,design intelligent systems
+Know_144,computer engineering
+Know_145,hpc high performance computing in intelligent systems
+Know_146,heterogeneous computing
+Know_147,data centric computing
+Know_148,smart systems
+Know_149,ai system design
+Know_150,bioengineering be
+Know_151,biomedical engineering
+Know_152,applied mathematics
+Know_153,intelligent systems for neuro engineering
+Know_154,code generation and optimization
+Know_155,semantic analysis and transformations
+Know_156,compilers designing
+Know_157,realtime systems
+Know_158,computer architectures
+Know_159,high performance computing
+Know_160,network systems design
+Know_161,deep learning
+Know_162,high performance computing in dl
+Know_163,medical imaging
+Know_164,computer aided manufacturing cam
+Know_165,computer aided design cad
+Know_166,rapid prototyping
+Know_167,fused deposition modeling fdm
+Know_168,information vizualization
+Know_169,scientific vizualization
+Know_170,advanced cloud computing
+Know_171,function as a service faas
+Know_172,microservices
+Know_173,devops
+Know_174,system development in intelligent system engineering
+Know_175,human intelligence
+Know_176,signals intelligence
+Know_177,counter intelligence
+Know_178,intelligence analytics
+Know_179,project management
+Know_180,recommendations
+Know_181,strategic intelligence analysis
+Know_182,information systems
+Know_183,knowledge representation
+Know_184,information retrieval
+Know_185,information science
+Know_186,cataloging
+Know_187,aacr2r
+Know_188,monographic publications
+Know_189,database design
+Know_190,drms systems
+Know_191,organizational informatics
+Know_192,information architecture
+Know_193,information analytics
+Know_194,network analysis
+Know_195,web informatic architecture
+Know_196,search engines
+Know_197,information management
+Know_198,system analysis
+Know_199,materials selection and analysis for youth
+Know_200,children and young adult library services
+Know_201,public library
+Know_202,education of information users
+Know_203,archives and record management
+Know_204,designing digital curation plans
+Know_205,digital data preservation
+Know_206,data semantics
+Know_207,semantic web
+Know_208,social media mining
+Know_209,sentiment analysis
+Know_210,web content analysis
+Know_211,extensible markup language xml
+Know_212,text encoding
+Know_213,scientometrics
+Know_214,human computer interaction
+Know_215,predictive analytics
+Know_216,information society
+Know_217,security algorithms
+Know_218,public speaking
+Know_219,communication principles
+Know_220,graphical user interfaces guis
+Know_221,version control
+Know_222,intellectual property
+Know_223,internet law
+Know_224,electronics design
+Know_225,arduino
+Know_226,data management
+Know_227,html
+Know_228,css
+Know_229,bootstrap
+Know_230,network science
+Know_231,performance analytics
+Know_232,user experience design ux
+Know_233,interaction design
+Know_234,health informatics
+Know_235,data science
+Know_236,big data analytics
+Know_237,design informatics technologies
+Know_238,threat modeling
+Know_239,informatics in disasters and emergency response
+Know_240,search engine
+Know_241,search informatics
+Know_242,web crawl
+Know_243,web index
+Know_244,defense mechanisms
+Know_245,information assurance
+Know_246,design strategy
+Know_247,design thinking
+Know_248,system thinking
+Know_249,human computer interaction design hcid
+Know_250,social media analysis
+Know_251,collective intelligence applications
+Know_252,design information systems
+Know_253,fundamentals of operating systems
+Know_254,database
+Know_255,file organization
+Know_256,fundamentals of computer architecture
+Know_257,computational and systems thinking
+Know_258,foundations of informatics
+Know_259,information and machine learning
+Know_260,statistical data analysis
+Know_261,genomics and proteomics
+Know_262,experimental design and data collection techniques
+Know_263,graphical analysis
+Know_264,malware defense
+Know_265,mobile design
+Know_266,genome annotation and comparison
+Know_267,machine learning in bioinformatics
+Know_268,artificial neural networks
+Know_269,rna secondary structure prediction
+Know_270,protein structure prediction
+Know_271,gene expression analysis
+Know_272,proteomics
+Know_273,integrative functional genomics
+Know_274,in situ evaluation method
+Know_275,workflows
+Know_276,data pipeline
+Know_277,distributed nosql
+Know_278,legal and social informatics of security
+Know_279,on the fly protocol design
+Know_280,cognitive modeling
+Know_281,distributed cognition
+Know_282,domestic computing
+Know_283,ubiquitous computing
+Know_284,affective computing
+Know_285,interactive systems design
+Know_286,human computer interation designhcid
+Know_287,building prototype
+Know_288,meaning and form in human computer interaction design hcid
+Know_289,network science in  social systems
+Know_290,network science in biological systems
+Know_291,informatics in life sciences and chemistry
+Know_292,problem solving
+Know_293,teamwork
+Know_294,communication
+Know_295,decision making
+Know_296,professional identity development
+Know_297,fundamentals of statistics
+Know_298,statistics for journalism
+Know_299,descriptive statistics
+Know_300,statistics for business
+Know_301,probabilistic models
+Know_302,microsoft excel
+Know_303,hypothesis testing
+Know_304,quality control
+Know_305,statistics for life sciences
+Know_306,medical data analysis
+Know_307,biological data analysis
+Know_308,statistical inference
+Know_309,point estimation
+Know_310,data modeling
+Know_311,regression models
+Know_312,data reduction
+Know_313,nonparametric probabilistic models
+Know_314,sensitivity analysis
+Know_315,linear models application
+Know_316,transformations
+Know_317,regression diagnostics
+Know_318,multivariate data analysis
+Know_319,principal component analysispca
+Know_320,discriminant analysis
+Know_321,factor analysis
+Know_322,canonical correlation analysis
+Know_323,time series analysis
+Know_324,forecasting methods
+Know_325,state space models
+Know_326,intervention analysis
+Know_327,exploratory data analysis
+Know_328,statistical analysis
+Know_329,high dimensional data analysis
+Know_330,graphical methods
+Know_331,dimensionality reduction
+Know_332,supervised learning
+Know_333,semi supervised learning
+Know_334,unsupervised learning
+Know_335,statistical applications
+Know_336,linear regression
+Know_337,statistical methods
+Know_338,applied statistics
+Know_339,r
+Know_340,statistical computing
+Know_341,optimization algorithms
+Know_342,stochastic algorithms
+Know_343,statistical computing applications
+Know_344,bayesian theory
+Know_345,linear model applications
+Know_346,principal component analysis
+Know_347,linear systems
+Know_348,highdimensional data analysis
+Know_349,statistical consulting
+Know_350,collaborative problem solving
+Know_351,linear algebra
+Know_352,nonlinear optimization
+Know_353,monte carlo methods
+Know_354,advanced statistics
+Know_355,advanced statistical models
+Know_356,adavanced bayesian inference
+Know_357,decision theory
+Know_358,advanced data analysis

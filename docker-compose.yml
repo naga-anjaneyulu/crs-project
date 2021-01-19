@@ -1,0 +1,50 @@
+version: '3.7'
+services:
+  cdb:
+    container_name: cdb
+    restart: always
+    image: postgres:12
+    environment:
+      - POSTGRES_USER=${USER}
+      - POSTGRES_PASSWORD=${PASSWORD}
+      - POSTGRES_DB=${CDB}
+    volumes:
+      - crs-data:/var/lib/postgressql/data
+    ports:
+      - "5438:5438"
+    networks:
+      - crs_network
+
+  crs-image:
+    image: nakopa/crs-image:0.1
+    container_name: crs-image
+    build: ./crs
+    environment:
+      - FLASK_ENV=docker 
+      - SQLALCHEMY_DATABASE_URI=postgresql://${USER}:${PASSWORD}@cdb/crs
+    ports:
+      - "5010:5000"
+    volumes:
+      - .docker/crs-image:/crs-image
+    depends_on:
+      - cdb
+    networks:
+      - crs_network
+
+  crs-ui-image:
+    image: nakopa/crs-ui-image:0.1
+    container_name: crs-ui-image
+    build: ./crs-ui
+    ports:
+     - "3001:3000"
+    volumes:
+     - .docker/crs-ui-image:/crs-ui-image
+    networks:
+     - crs_network 
+
+volumes:
+    crs-data:
+   
+networks:
+    crs_network:
+    
