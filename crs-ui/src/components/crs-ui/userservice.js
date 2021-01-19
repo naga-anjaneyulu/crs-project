@@ -6,7 +6,7 @@ class UserService{
     registerUser(data){
 
      return axios.post('http://35.225.108.32:5000/register', 
-    data)
+    data,{'Access-Control-Allow-Origin': '*','Content-Type':'application/json'})
     }
 
 
