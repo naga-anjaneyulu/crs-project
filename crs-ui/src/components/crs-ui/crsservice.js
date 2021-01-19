@@ -8,32 +8,32 @@ class CrsService{
 
      startAssesment(data){
 
-        return axios.post('http://'+window.location.host+':5010/start', 
+        return axios.post('http://localhost:5000/start', 
         data)
 
      }
 
      nextQuestion(data){
-      return axios.post('http://'+window.location.host+':5010/next', 
+      return axios.post('http://localhost:5000/next', 
       data)
 
    }
 
 
    userSatisfaction(data){
-      return axios.post('http://'+window.location.host+':5010/satisfaction', 
+      return axios.post('http://localhost:5000/satisfaction', 
       data)
      }
       
      recommendCourses(data){
-      return axios.post('http://'+window.location.host+':5010/recommend', 
+      return axios.post('http://localhost:5000/recommend', 
       data)
      }
 
      
 
      generateReport(data){
-      return axios.post('http://'+location.hostname+':5010/report', 
+      return axios.post('http://localhost:5000/report', 
       data)
      }
 

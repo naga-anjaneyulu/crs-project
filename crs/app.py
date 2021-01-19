@@ -53,7 +53,7 @@ gb_ass_matrix = load_data.generate_ass_matrix()
 app = Flask(__name__)
 app.json_encoder = MyJSONEncoder
 app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['SQLALCHEMY_DATABASE_URI']
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:idontknow.3@localhost:5432/crs"
 #"postgresql://postgres:idontknow.3@localhost:5438/crs"
 #os.environ['SQLALCHEMY_DATABASE_URI']
 app.debug = False
