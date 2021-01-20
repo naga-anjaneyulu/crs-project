@@ -304,7 +304,7 @@ def generate_pseudo_recomm(ass_matrix,category,pseudo):
 def start_assesment(data):
     pseudo_recom = {}
     ass_data = build_assesment_data(data)
-    path = "./crs/resources/data/"
+    path = "/home/nakopa/crs-project/crs/resources/data/"
     ass_matrix = pd.read_csv(os.path.join(path, gb_ass_matrix[ass_data.get_category1()]))
     generate_pseudo_recomm(ass_matrix,ass_data.get_category1(),pseudo_recom)
     ass_matrix = pd.read_csv(os.path.join(path, gb_ass_matrix[ass_data.get_category2()]))
