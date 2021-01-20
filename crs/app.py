@@ -29,7 +29,7 @@ from flask import Flask, request, jsonify
 # global gb_ground_truth
 # global gb_kc_rel
 # global gb_questions
-gb_path = "./resources/data/"
+gb_path = "/home/nakopa/crs-project/crs/resources/data/"
 gb_job_skill_rel = pd.read_csv(os.path.join(gb_path, 'Job_Skill_Rel.csv'))
 gb_course_data = pd.read_csv(os.path.join(gb_path, 'Course_Node.csv'))
 gb_courses_desc = pd.read_csv(os.path.join(gb_path, 'Luddy.csv'))

@@ -393,7 +393,7 @@ def recommend_courses(data):
 "@ function for generating report"
 def generate_report(data):
     sat_data = parse_user_sat_data(data)
-    path = os.path.join('./crs/results/', str(sat_data.get_user_id()))
+    path = os.path.join('/home/nakopa/crs-project/crs/results/', str(sat_data.get_user_id()))
     if sat_data.count == 1:
         os.mkdir(path)
     path = os.path.join(path, str(sat_data.count))
