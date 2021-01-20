@@ -8,32 +8,32 @@ class CrsService{
 
      startAssesment(data){
 
-        return axios.post('http://35.225.108.32:5000/start', 
+        return axios.post('http://34.71.108.142:5000/start', 
         data)
 
      }
 
      nextQuestion(data){
-      return axios.post('http://35.225.108.32:5000/next', 
+      return axios.post('http://34.71.108.142:5000/next', 
       data)
 
    }
 
 
    userSatisfaction(data){
-      return axios.post('http://35.225.108.32:5000/satisfaction', 
+      return axios.post('http://34.71.108.142:5000/satisfaction', 
       data)
      }
       
      recommendCourses(data){
-      return axios.post('http://35.225.108.32:5000/recommend', 
+      return axios.post('http://34.71.108.142:5000/recommend', 
       data)
      }
 
      
 
      generateReport(data){
-      return axios.post('http://35.225.108.32:5000/report', 
+      return axios.post('http://34.71.108.142:5000/report', 
       data)
      }
 
