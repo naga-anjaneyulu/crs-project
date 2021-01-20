@@ -71,7 +71,6 @@ def load_questions():
 
 
 @app.route('/register',methods=["POST"])
-@cross_origin
 def register():
 
     data = json.loads(request.data)
