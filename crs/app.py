@@ -2,8 +2,8 @@ import json
 import os
 import pandas as pd
 from sqlalchemy import exc
-from flask_cors import CORS
-from flask_script import Manager
+from flask_cors import CORS, cross_origin
+from flask_script import Manager, Server
 
 from manage import db
 from util import load_data
@@ -63,13 +63,15 @@ db.app = app
 migrate = Migrate(app, db)
 manager = Manager(app)
 manager.add_command('db', MigrateCommand)
+manager.add_command('runserver', Server(host='0.0.0.0', port=5000))
 
 @manager.command
 def load_questions():
-    load_data.load_questions('Question_Knowledge_Rel.csv', gb_questions, gb_path)
+    pass
 
 
 @app.route('/register',methods=["POST"])
+@cross_origin
 def register():
 
     data = json.loads(request.data)
